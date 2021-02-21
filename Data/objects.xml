@@ -4694,6 +4694,7 @@
 			<category title="Suits">
 				<object type="Server.Items.DeathShroud" gfx="8270" />
 				<object type="Server.Items.DupreSuit" gfx="8272" />
+				<object type="Server.Items.GMRobe" gfx="8271" />
 				<object type="Server.Items.LordBlackthorneSuit" gfx="8259" />
 				<object type="Server.Items.LordBritishSuit" gfx="8258" />
 				<object type="Server.Items.StaffRobe" gfx="9859" />
