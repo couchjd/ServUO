@@ -564,7 +564,8 @@ namespace Server.Items
 
             for (int i = 0; i < checkLists.Length; ++i)
             {
-                if (Siege.SiegeShard && checkLists[i].Number == 1012000) // Trammel
+                if (checkLists[i].Number != 1012001 || // Added this to disable maps other than Felucca
+					(Siege.SiegeShard && checkLists[i].Number == 1012000)) // Trammel (this was the original condition
                 {
                     continue;
                 }
